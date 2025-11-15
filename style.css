@@ -315,4 +315,44 @@ a {
 }
 
 .main-footer {
-    background-color: #000000;
+    background-color: #000000; 
+    color: #FFFFFF; 
+    padding: 60px 40px 30px;
+    border-top: 1px solid #333333; 
+    
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.footer-section {
+    flex: 1 1 250px; 
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 5px;
+}
+
+.footer-section a,
+.footer-section p {
+    display: block;
+    color: #CCCCCC; 
+    margin-bottom: 10px;
+    font-size: 0.95em;
+    transition: color 0.2s;
+}
+
+.footer-section a:hover {
+    color: #FFFFFF; 
+}
+
+.contact-info p {
+    line-height: 1.5;
+}
